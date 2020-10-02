@@ -38,6 +38,7 @@ function display(){
   var element = document.getElementById("resultLabel");
   var love_percentage=compute();
   element.innerHTML = love_percentage;
+  document.getElementById("love_result").innerHTML="Your love % is "+love_percentage;
   element.classList.toggle("animated");
   document.getElementById("compute").blur();
 }
