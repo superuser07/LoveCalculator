@@ -13,6 +13,11 @@ h1 {
 body {
   background-color: #ffaaf9;
 }
+heading{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 3em;
+}
 .heart {
   top: 40px;
   position: relative;
