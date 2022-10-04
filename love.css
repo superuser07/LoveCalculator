@@ -148,3 +148,8 @@ input[type=text] {
   85% {content: "80%";}
   100%{content: "35%";}
 }
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
