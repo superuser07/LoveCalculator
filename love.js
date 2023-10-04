@@ -21,7 +21,7 @@ function compute(){
   for (var j = 0; j < name2.length; j++){
     num2 = num2 + name2.charCodeAt(j);
   }
-  var result = (num1 * num2 * 273);
+  var result = (num1 * num2 * 298);
   var strRes = result.toString();
   
   return strRes.substring(0, 2)+"%";
@@ -32,7 +32,7 @@ function magicHappens(){
   element.innerHTML = "";
   element.style.display = "block";
   element.classList.toggle("animated");
-  setTimeout('display()',3005);
+  setTimeout('display()',3000);
 }
 function display(){
   var element = document.getElementById("resultLabel");
