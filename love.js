@@ -42,7 +42,3 @@ function display(){
   element.classList.toggle("animated");
   document.getElementById("compute").blur();
 }
-
-
-
-Resources
